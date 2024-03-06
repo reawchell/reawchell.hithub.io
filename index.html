@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="conteiner-header">
+        <header>
+            <div class="logo">
+                <a href="#">Reawchell</a>
+            </div>
+            <div class="responsives" id="menu-icon" onmouseover="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <nav class="responsive" id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#about" onclick="seleccionar()">ABOUT</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    
+
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+           <div class="contenedor-img">
+             <img class="foto" src="ima/testey.jpg" alt="">
+           </div>
+           <h1>Reawchell Ros</h1>
+           <h2>Full Stack Developer - Data Science </h2>
+           <div class="redes">
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/raquelrosales-fullstackdeveloper/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/reawchell" target="_blank"><i class="fa-brands fa-github"></i></a>
+           </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="contenido-page">
+            <h2>About Me</h2>
+            <p><span> Hola, soy Reawchell Ros.</span> FULL STACK DEVELOPER
+                con experiencia en Gestión de Servicios de Asistencia Técnica en el ámbito de
+                la Telefonía y Desarrollo de Proyectos IT. Completé un Boot Camp de Full Stack Developer, un
+                Máster en Machine Learning, Big Data y Business Intelligence. Poseo habilidades sólidas en
+                desarrollo web tanto en el frontend como en el backend, utilizando tecnologías como HTML, CSS,
+                JavaScript, Angular, React, Node.js, TypeScript, PHP, Python y bases de datos SQL y NoSQL. Mi
+                enfoque integral me permite abordar proyectos de forma completa, combinando aspectos técnicos
+                y análisis de datos para generar soluciones valiosas. Busco oportunidades emocionantes como Full
+                Stack Developer, donde pueda aplicar mis habilidades y contribuir al éxito de los equipos y las
+                organizaciones.
+            </p>
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            25-10-1985
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            000 000 000
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            raquellore@gmail.com
+                        </li>
+                        <li>
+                            <strong>Github</strong>
+                            https://github.com/reawchell
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Valencia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-person-snowboarding"></i>
+                            <span>Snowboard</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-light fa-music"></i>
+                            <span>Musica</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-plane"></i>
+                            <span>Viajes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-duotone fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>Motos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Senderismo</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>Películas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="button-container">
+                <a href="ima/ES_CV_RAQUEL_ROSALES.pdf" download class="download-button">
+                    DESCARGAR CV <i class="fa-solid fa-download"></i>
+                    <span class="over"></span> 
+                </a>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-page">
+            <h2>Skills</h2>
+    
+            
+            <div class="fila">
+    
+                
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso php">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>REACT</span>
+                        <div class="barra-skill">
+                            <div class="progreso react">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NODE</span>
+                        <div class="barra-skill">
+                            <div class="progreso node">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ANGULAR</span>
+                        <div class="barra-skill">
+                            <div class="progreso angular">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                
+                <div class="col">
+                    <h3>Soft Skills</h3>
+                    <div class="skill">
+                        <span>Comprometida</span>
+                        <div class="barra-skill">
+                            <div class="progreso comprometida">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso trabajoenequipo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolutiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso resolutiva">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gestion de Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso gestiondeproyectos">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class=" progreso creatividad">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div> 
+    
+        </div>
+    </section>
+
+    <section id="curriculum" class="cv">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col-izquierda">
+                    <h3>Educación</h3>
+                    <div class="item-izq">
+                        <h4>Boot Camp Full Stack Developer</h4>
+                        <span class="Institución">Upgrade Hub</span>
+                        <span class="fecha">2023</span>
+                        <p>Conocimientos en JavaScript, Angular, React, HTML, CSS, Node.js, TypeScript y PHP, tengo habilidades para desarrollar
+                            aplicaciones web completas, tanto en el lado del cliente como en el lado del servidor. Puedo crear interfaces de usuario interactivas, manejar la lógica del negocio, acceder
+                            y gestionar bases de datos, y desplegar aplicaciones web utilizando diversas tecnologías y frameworks.</p>
+                        <!-- <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div> -->
+                    </div>
+                    <div class="item-izq">
+                        <h4>Master Bussines Intelligence</h4>
+                        <span class="Institución">Cloud Formación</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p> Datos, análisis y métricas| Tratamiento de la incertidumbre y el análisis del riesgo| Data Marts (DM), Data Warehouse (DWH)
+                            y ETL | Bases de Datos Relacionales y SQL|Data Definition Language (DDL) y Data Manipulation Language (DML)| Análisis de clústeres.</p>
+                        <!-- <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div> -->
+                    </div>
+                    <div class="item-izq">
+                        <h4>Programa Superior Big Data</h4>
+                        <span class="Institución">Telefónica</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Fundamentos de Programación | Arquitectura computación distribuida | Apache Kafka | Hadoop | Apache Spark | ElasticSearch | Kibana
+                            | Bases de datos orientadas a columnas
+                            TFM: “Detección Fraude Bancario con Tarjetas de Crédito”. Se utilizaron datos de comercio electrónico real de una determinada entidad, planteamiento
+                            de un problema de clasificación binaria supervisado, con la intención de predecir si una transacción con tarjeta de crédito es fraudulenta o no.</p>
+                        <!-- <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div> -->
+                    </div>
+                    <div class="item-izq">
+                        <h4>Master Machine Learning</h4>
+                        <span class="Institución">Cloud Formación</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Tratamiento de datos | Algoritmos de clasificación y regresión | Redes Neuronales | Deep Learning | Lenguajes de programación | Bases
+                            de datos SQL y NOSQL.
+                            TFM: “Desarrollo de Herramienta de Clasificación de Alojamientos Airbnb”. Proyecto orientado a determinar con el uso de algoritmos de clasificación,
+                            los alojamientos que tienen mejor salida en el mercado, y en qué datos se basa un cliente para alquilar un inmueble.</p>
+                        <!-- <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="col-derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item-der">
+                        <h4>Técnico de Redes Informática</h4>
+                        <span class="Empresa">Freelance Full Stack Developer</span>
+                        <span class="fecha">2023 - Actualidad</span>
+                        <p>Desarrollo completo de aplicaciones web personalizadas, desde la planificación inicial hasta la implementación y mantenimiento continuo.
+                            Colaboración con clientes para entender sus necesidades y traducirlas en soluciones técnicas efectivas.
+                            Implementación estrategias de seguridad robustas y optimicé el rendimiento para garantizar una experiencia de usuario óptima.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item-der">
+                        <h4>Gerente Técnico</h4>
+                        <span class="Empresa">Mercadona</span>
+                        <span class="fecha">2019 - 2020</span>
+                        <p>Responsable de implementar las métricas de apertura de nuevos centros en Portugal, solventar las incidencias relacionadas con la seguridad jurídica y
+                            física de las instalaciones mediante la gestión de abogados, cuerpos de seguridad y diversos proveedores de sistemas de prevención de riesgos.
+                            Planificación y control de incidencias de alarmas y cámaras de seguridad.
+                            Desarrollo y mantenimiento de las instalaciones de seguridad.
+                            Supervisión, acompañamiento y resolución de incidencias.
+                            Responsable del cumplimiento de estándares y requisitos legales.
+                           </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item-der">
+                        <h4>Gerente Técnico Sat</h4>
+                        <span class="Empresa">BQ Valencia</span>
+                        <span class="fecha">2017 - 2019</span>
+                        <p>Responsable de diseñar y poner en marcha la división a cargo de los servicios de asistencia técnica. El reto abarcó la selección y gestión del personal
+                            administrativo y operativo del servicio, así como de la planificación y ejecución de las actividades orientadas a garantizar el correcto funcionamiento de
+                            los equipos y sistemas de telefonía en clientes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item-der">
+                        <h4>Técnico Sat</h4>
+                        <span class="Empresa">Saumsung España / El Corte Inglés</span>
+                        <span class="fecha">2015 - 2017</span>
+                        <p>Atención técnica de software y hardware a clientes del Corte Inglés con terminales Samsung. Resolución de averías en los dispositivos móviles,
+                            responsable de la ejecución de las reparaciones, de la atención al cliente con el fin de informar sobre garantías y del reporte final de resultados.
+                            Organización y gestión del departamento.
+                            Administración de presupuestos .
+                            Negociación y gestión de planes, servicios de reparación y asistencia técnica.
+                            Elaboración de informes de la gestión y cumplimiento de KPI´s.
+                            Gestión de las relaciones con los clientes .</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                   
+                </div>
+               
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="ima/des.jpg" alt="">
+                    <div class="overplay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="ima/diseño.jpg" alt="">
+                    <div class="overplay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="ima/codi.jpg" alt="">
+                    <div class="overplay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="ima/pag.jpg" alt="">
+                    <div class="overplay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="ima/port.jpg" alt="">
+                    <div class="overplay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="ima/responsive.jpg" alt="">
+                    <div class="overplay">
+                        <h3>Diseño</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <div class="col">
+                   <input type="text" placeholder="Reawchell Ros">
+                   <input type="text" placeholder="000 000 000">
+                   <input type="text" placeholder="raquellore@gmail.com">
+                   <input type="text" placeholder="Developer"> 
+                   <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                   <form action="msn.php" method="post">
+                    <input type="text" name="nombre" placeholder="Reawchell Ros">
+                    <button class="enviar" type="submit">Enviar Mensaje<i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                
+                </div>
+
+                <div class="col">
+                    <img src="ima/mapa.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                España, Valencia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Tel: 000 000 000
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: raquellore@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <section id="footer" class="footer">
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i> 
+        </a>
+        <div class="redes">
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/raquelrosales-fullstackdeveloper/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/reawchell" target="_blank"><i class="fa-brands fa-github"></i></a>
+           </div>
+    </section>
+
+    <script src="script.js"></script>                                    
+</body>
+</html>
